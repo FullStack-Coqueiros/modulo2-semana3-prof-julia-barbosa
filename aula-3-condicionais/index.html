@@ -7,7 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="/aula-3-condicionais/condicinais.js"></script>
-    <script src="/aula-3-condicionais/repeticao.js"></script>
+    <button>Clique aqui para mudar a minha cor de fundo.</button><br>
+    <button onmousedown="apertarMouse()" 
+    onmouseup="soltarMouse()" 
+    onclick="clicarNoMouse()">Eventos de Mouse</button>
+    <div id="status"></div>
+    <div id="status2"></div>
+
+    <div 
+    onmouseover="mouseDentro(this)"
+    onmouseout="mouseFora(this)"
+    style="background-color: blueviolet; 
+    width: 100px; 
+    height: 100px;"
+    >
+        Passe seu mouse aqui
+    </div>
+    <script src="/aula-3-condicionais/funcoes.js"></script>
 </body>
 </html>

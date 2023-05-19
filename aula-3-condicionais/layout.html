@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Timeout e Interval - Exemplos</h2>
+    <p>Clique aqui. Depois de 3 segundos um alerta será exibido com uma mensagem.</p>
+    <button onclick="stopAlert = setTimeout(alertFunction, 3000)" >Clique aqui</button>
+    <button onclick="clearTimeout(stopAlert)">Parar a execução do alerta.</button>
+    <button onclick="clearInterval(createClock)">Parar a execução do relogio.</button>
+    <p id="resultado"></p>
+    <script src="/aula-3-condicionais/intervalTimeOut.js"></script>
+</body>
+</html>
